@@ -28,7 +28,7 @@ class Main
     String userMenuChoice = "";   // human inputted menu choice
     String newItem = "";          // new item added to inventory
     int customerSelection = 0;    // customer selection from menu list of items
-    String PIN = "";
+    String PIN = "";              // {[-My Contribution to the Svend Project-]}
 
     // read the list of items from  external file
     try
@@ -62,9 +62,9 @@ class Main
 
     if (userMenuChoice.equals("1") || userMenuChoice.equals("A") || userMenuChoice.equals("a"))
     {
-      System.out.println("Please enter PIN: ");
-      PIN = keyboard.nextLine();
-      if (PIN.equals("0000"))
+      System.out.println("Please enter PIN: "); // -----------------------------------------------
+      PIN = keyboard.nextLine();                // {[- My Contribution to the Svend Project -]}
+      if (PIN.equals("0000"))                   // -----------------------------------------------
       {
         System.out.println("[-]ADMIN MODE[-]");
         System.out.print("What is your new item? ");
