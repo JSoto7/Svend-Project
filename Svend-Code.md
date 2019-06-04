@@ -28,7 +28,7 @@ class Main
     String userMenuChoice = "";   // human inputted menu choice
     String newItem = "";          // new item added to inventory
     int customerSelection = 0;    // customer selection from menu list of items
-    **String PIN = "";              // {[-My Contribution to the Svend Project-]}**
+    ** String PIN = "";              // {[-My Contribution to the Svend Project-]} **
 
     // read the list of items from  external file
     try
